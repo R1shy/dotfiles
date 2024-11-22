@@ -1,0 +1,11 @@
+updateInfoAdded=true
+
+[gtkconfig.upd]
+ctime=1731974236
+done=gtk_theme,dont_use_gtk_css_for_window_decorations,remove_deprecated_gtk4_option
+mtime=1730832360
+
+[kwin.upd]
+ctime=1731974234
+done=remove_deprecated_gtk4_option,kwin-6.0-reset-active-mouse-screen,kwin-6.0-delete-desktop-switching-shortcuts,kwin-6.0-remove-breeze-tabbox-default,kwin-6.1-remove-gridview-expose-shortcuts
+mtime=1730830975
