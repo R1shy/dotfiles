@@ -18,4 +18,13 @@ bootstrap_pckr()
 require('plugins')
 require('luabar')
 require('coc')
+vim.cmd [[set number]]
+
+-- autocomplete braces
+vim.cmd [[inoremap { {}<Esc>ha]]
+vim.cmd [[inoremap ( ()<Esc>ha]]
+vim.cmd [[inoremap [ []<Esc>ha]]
+vim.cmd [[inoremap " ""<Esc>ha]]
+vim.cmd [[inoremap ' ''<Esc>ha]]
+vim.cmd [[inoremap ` ``<Esc>ha]]
 vim.cmd [[colorscheme tokyonight-night]]

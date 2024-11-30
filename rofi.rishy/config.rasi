@@ -1,0 +1,15 @@
+configuration {
+  modes: [ combi ];
+  combi-modes: [ window, drun, run ];
+}
+
+@theme "gruvbox-light"
+ 
+/* Insert theme modifications after this */configuration {
+  modes: [ combi ];
+  combi-modes: [ window, drun, run ];
+}
+
+@theme "gruvbox-light"
+ 
+/* Insert theme modifications after this */
